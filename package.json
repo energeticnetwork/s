@@ -1,7 +1,7 @@
 {
-    "name": "starseekerproxy",
+    "name": "starseeker",
     "version": "4.1.4",
-    "description": "One of the best modern web proxies.",
+    "description": "sissu.",
     "type": "module",
     "engines": {
       "npm": ">=7.0.0",
