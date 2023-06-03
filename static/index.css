@@ -1,0 +1,113 @@
+head{     
+      .head{
+              animation: rainbow-bg 2.5s linear;
+              animation-iteration-count: infinite;
+      }
+      
+      .head{
+              animation: rainbow 2.5s linear;
+              animation-iteration-count: infinite;
+      }
+      
+      @keyframes rainbow-bg{
+              100%,0%{
+                  background-color: rgb(255,0,0);
+              }
+              8%{
+                  background-color: rgb(255,127,0);
+              }
+              16%{
+                  background-color: rgb(255,255,0);
+              }
+              25%{
+                  background-color: rgb(127,255,0);
+              }
+              33%{
+                  background-color: rgb(0,255,0);
+              }
+              41%{
+                  background-color: rgb(0,255,127);
+              }
+              50%{
+                  background-color: rgb(0,255,255);
+              }
+              58%{
+                  background-color: rgb(0,127,255);
+              }
+              66%{
+                  background-color: rgb(0,0,255);
+              }
+              75%{
+                  background-color: rgb(127,0,255);
+              }
+              83%{
+                  background-color: rgb(255,0,255);
+              }
+              91%{
+                  background-color: rgb(255,0,127);
+              }
+      }
+      
+      @keyframes head{
+              100%,0%{
+                  color: rgb(255,0,0);
+              }
+              8%{
+                  color: rgb(255,127,0);
+              }
+              16%{
+                  color: rgb(255,255,0);
+              }
+              25%{
+                  color: rgb(127,255,0);
+              }
+              33%{
+                  color: rgb(0,255,0);
+              }
+              41%{
+                  color: rgb(0,255,127);
+              }
+              50%{
+                  color: rgb(0,255,255);
+              }
+              58%{
+                  color: rgb(0,127,255);
+              }
+              66%{
+                  color: rgb(0,0,255);
+              }
+              75%{
+                  color: rgb(127,0,255);
+              }
+              83%{
+                  color: rgb(255,0,255);
+              }
+              91%{
+                  color: rgb(255,0,127);
+              }
+      }
+
+
+
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+#searchbar {
+  background-color: rgba(30, 30, 30, 0.8);
+  color: white;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  width: 25%;
+  transition: all 0.4s ease-in-out;
+  height: 60px;
+  border: none;
+  outline: none;
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+}
